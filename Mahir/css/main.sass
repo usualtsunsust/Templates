@@ -1,0 +1,397 @@
+@import fonts
+@import variables
+
+html
+	font-size: 10px
+
+*
+	box-sizing: border-box
+
+body
+	margin: 0
+	overflow-x: hidden
+	a
+		text-decoration: none
+
+button, button:focus, button:active
+	outline: none
+
+%btn
+	width: 14.4rem
+	height: 5.1rem
+	box-shadow: -1px 10px 18px rgba(0, 0, 0, 0.15)
+	background-color: $black
+	border: 1px solid $black
+	padding-left: 2.9rem
+	padding-right: 2.9rem
+
+	color: $white
+	font-family: $c-m
+	font-size: 1.6rem
+	font-weight: 500
+	line-height: 3.2rem
+	text-transform: uppercase
+
+/* Section Home */
+#Home
+	height: 80rem
+
+	.grey_bg-and-boy
+		width: 648px
+		height: 800px
+		background-color: #e1e1e1
+		text-align: right
+
+		.boy
+			margin-top: -58.2rem
+
+	.right-sidebar
+		margin-top: 24.8rem
+
+	.left-sidebar
+		margin-top: 20rem
+
+	.logo
+		color: $black
+		font-family: $m-b
+		font-size: 2.4rem
+		font-weight: 700
+		line-height: 3.2rem
+		transform: translateY(-35rem)
+		margin-left: -41.6rem
+
+	.nav
+		color: $black
+		font-family: $c-r
+		font-size: 1.6rem
+		font-weight: 400
+		line-height: 3.2rem
+		text-transform: uppercase
+		list-style-type: none
+		display: flex
+		transform: translateY(-35rem)
+
+		a
+			&:after
+				content: ''
+				width: 100%
+				height: .2rem
+				background-color: $black
+				display: block
+				transform: scale(0)
+				transition: all .3s
+
+			&:hover
+
+				&:after
+					transform: scale(1)
+
+		li
+			transform: translateX(10rem)
+			margin-left: 2rem
+			margin-right: 2rem
+
+			&:hover
+
+
+	h1
+		color: $black
+		font-family: $c-b
+		font-size: 4.6rem
+		font-weight: 700
+		line-height: 3.2rem
+		text-transform: uppercase
+		margin: 0
+
+	h2
+		margin: 0
+		margin-top: .5rem
+		color: $black
+		font-family: $c-r
+		font-size: 2.2rem
+		font-weight: 700
+		line-height: 3.2rem
+		margin-bottom: 2.5rem
+
+	.header-text
+		transform: translateY(-49rem)
+		margin-left: 12.8rem
+
+
+/* Button */
+.btn
+		@extend %btn
+
+		&-two
+			width: 19.4rem
+			background-color: $white
+			color: $black
+			margin-left: 1rem
+			transition: all .2s
+
+			&:hover
+				background-color: $black
+				color: $white
+
+		&-one
+			margin-right: 1rem
+			transition: all .2s
+
+			&:hover
+				background-color: $white
+				color: $black
+
+/* Section-header-text */
+.section-header
+
+	button
+		width: 25rem
+
+	&-h2
+		margin: 0
+		margin-top: 12.3rem
+		margin-bottom: 1.5rem
+		color: $darken-black
+		font-family: $c-r
+		font-size: 3.6rem
+		font-weight: 400
+		line-height: 3.2rem
+		text-transform: uppercase
+
+	&-img
+		margin: 0
+		margin-bottom: 2.4rem
+
+	&-p
+		margin: 0
+		margin-bottom: 8.3rem
+		width: 56.3rem
+		height: 9.5rem
+		color: $black
+		font-family: $c-r
+		font-size: 2.1rem
+		font-weight: 700
+		line-height: 2.6rem
+		text-align: center
+
+/* Section About */
+#About
+	height: 50rem
+
+/* Section MySkills */
+#MySkills
+	height: 35rem
+
+	h2
+		margin: 0
+		margin-top: 5rem
+
+	img
+		margin-top: 1.5rem
+
+	span
+		color: $darken-black
+		font-family: $c-r
+		font-size: 2.4rem
+		font-weight: 400
+		line-height: 3.2rem
+		text-transform: uppercase
+
+	.progress
+		margin-bottom: 3.9rem
+		width: 37rem
+		height: 1.5rem
+		background-color: $grey
+
+		&-bar
+			height: 100%
+			background-color: $black
+
+			&-1
+				width: 34.6rem
+			&-2
+				width: 24rem
+			&-3
+				width: 27.8rem
+			&-4
+				width: 21rem
+			&-5
+				width: 35.9rem
+			&-6
+				width: 34.6rem
+
+/* Section What I Do */
+#WhatIDo
+	height: 85.5rem
+
+	.wid-bg
+		width: 100vw
+		background: url(../img/wid-bg.png) no-repeat
+		background-size: cover
+
+	.WhatIDo
+		width: 117rem
+		height: 51.7rem
+		box-shadow: 0 0 40px 9px rgba(0, 0, 0, 0.15)
+		background-color: $white
+		transform: translateY(21.7rem)
+
+	.section-header-img
+		margin-bottom: 4.1rem
+		margin-right: 2rem
+
+	.monitor
+		margin-left: 16rem
+		margin-bottom: 1rem
+
+	.binary-code
+		margin-right: 17rem
+		margin-bottom: 1rem
+
+	.codyng
+		margin-left: -2rem
+		margin-bottom: 1rem
+
+	span
+		text-align: center
+		color: $darken-black
+		font-family: $c-b
+		font-size: 2.4rem
+		font-weight: 700
+		line-height: 3.2rem
+
+	.wat-span-left
+		// margin-left: 20.8rem
+
+	.wat-span-right
+		// margin-right: 17.2rem
+
+	.info
+		text-align: center
+
+		&-img
+			text-align: center
+
+	h2
+		margin-right: 2rem
+
+	p
+		text-align: center
+		width: 29.3rem
+		height: 9.5rem
+		opacity: 0.9
+		color: $darken-black
+		font-family: $c-r
+		font-size: 1.6rem
+		font-weight: 700
+		line-height: 2.6rem
+
+
+/* Section MyWorks */
+#MyWorks
+	height: 87.2rem
+
+	h2
+		margin: 0
+		margin-bottom: 1.4rem
+
+	img
+		margin-bottom: 3rem
+
+	button
+		margin-top: .7rem
+
+
+/* Section Count */
+#Count
+	height: 28.6rem
+	background-image: url(../img/img-count.png)
+	color: $white
+	font-family: $c-r
+	font-size: 3rem
+	font-weight: 400
+	line-height: 4rem
+	padding-top: 8.3rem
+
+	span
+		text-align: center
+		margin-left: 12.4rem
+		margin-right: 12.4rem
+		font-size: 10rem
+
+	p
+		width: 30.4rem
+		margin: 0
+		text-align: center
+		margin-left: 2.5rem
+		margin-right: 2.5rem
+
+
+/* Section Order */
+#Order
+	height: 67rem
+
+	h2
+		margin: 0
+		margin-top: 12.2rem
+
+	input, textarea
+		color: $darken-black
+		font-family: $c-r
+		font-size: 1.6rem
+		font-weight: 700
+		line-height: 3.2rem
+		border: none
+		border-bottom: .1rem solid $black
+		outline: none
+
+	.r1
+		width: 57rem
+
+	.r2
+		width: 117rem
+		height: 20.2rem
+		margin-top: 4rem
+
+	button
+		width: 27rem
+		margin-top: 4rem
+
+		i
+			margin-left: .5rem
+			font-size: 2.2rem
+
+	.section-header-img
+		margin-top: 1.4rem
+
+
+/* Section Footer */
+
+footer
+	padding-top: 3.4rem
+	height: 10.3rem
+	background-color: $black
+	color: $white
+	font-family: $c-r
+	font-size: 1.6rem
+	font-weight: 400
+	line-height: 3.2rem
+
+	button
+		width: 3.6rem
+		height: 3.6rem
+		border: .1rem solid $white
+		background-color: $black
+		border-radius: 5rem
+		color: $white
+		font-size: 1.6rem
+		font-weight: 400
+		line-height: 3.2rem
+		transition: .3s all
+
+		&:hover
+			background-color: $white
+			color: #0077b5
+
+	span
+		margin-right: 15rem

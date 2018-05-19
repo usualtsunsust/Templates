@@ -1,0 +1,366 @@
+@import fonts
+@import variables
+
+html
+	font-size: 10px
+
+*
+	box-sizing: border-box
+
+body
+	margin: 0
+	overflow-x: hidden
+	a
+		text-decoration: none
+
+
+p::selection, h1::selection,
+h2::selection, h3::selection,
+h4::selection, span::selection,
+img::selection, button::selection,
+input::selection
+	color: $white
+	background: #d69aff
+
+
+button, button:focus, button:active,
+input, input:focus, input:active
+	outline: none
+
+/* button */
+
+.btn
+	background-color: $yellow
+	border-radius: 50px
+	border: none
+	color: $brown
+	font-family: $m-b
+	font-size: 1.4rem
+	font-weight: 700
+	text-transform: uppercase
+	letter-spacing: 1.05px
+	transition: .3s
+	cursor: pointer
+	&:hover
+		background-color: rgba(0, 0, 0, 0)
+
+
+/* Header */
+header
+	height: 120.9rem
+	width: 192rem
+
+	.main-bg
+		background: url(../img/main-bg.png) no-repeat
+		background-size: cover
+		width: 192rem
+		height: 120.9rem
+
+
+		.blackout
+			padding-top: 2.6rem
+			width: 192rem
+			height: 120.9rem
+
+
+	.logo
+		color: $white
+		font-family: $m-b
+		font-size: 3rem
+		font-weight: 700
+		line-height: 9.2rem
+		margin: 0
+		// margin-top: 2.6rem
+
+		&-img
+			margin-left: 4rem
+			// margin-top: 2.6rem
+
+	nav
+		color: $white
+		font-family: $m-r
+		font-size: 1.8rem
+		font-weight: 400
+		line-height: 92.97px
+		letter-spacing: 0.45px
+		margin-right: 6rem
+		// margin-top: 2.6rem
+
+		img, span
+			margin-left: 4.4rem
+
+	h1
+		margin: 0
+		margin-top: 21.7rem
+		width: 589px
+		height: 163px
+		color: $white
+		font-family: $m-b
+		font-size: 9.2rem
+		font-weight: 700
+		line-height: 9.2rem
+		text-align: center
+
+		span
+			color: $orange
+
+	h3
+		opacity: 0.2
+		color: $white
+		font-family: $m-r
+		font-size: 1.8rem
+		font-weight: 400
+		margin-top: 3.7rem
+
+	button
+		width: 23.2rem
+		height: 5.1rem
+
+	.img-bg
+		transform: translateY(37.3rem)
+
+		.col-md-auto
+			padding: 0
+
+		&-content
+			height: 43.3rem
+			width: 34.5rem
+			margin: 0
+
+			&:hover
+				.img-bg-content
+					h3
+						font-size: 4.6rem
+
+				.img-bg-content-description
+					transform: translateY(15.7rem)
+
+					.btn
+						display: inline-block
+						transform: translateY(6rem)
+						border: .1rem solid $yellow
+
+
+			&-description
+				.btn
+					transition: .5s all
+					display: none
+
+				text-align: center
+				transform: translateY(31rem)
+				transition: .5s all
+
+			h3
+				margin: 0
+				text-align: center
+				color: $white
+				font-family: $m-b
+				font-size: 3rem
+				font-weight: 700
+				opacity: 1
+				transition: .5s all
+
+			h4
+				margin: 0
+				text-align: center
+				color: $yellow
+				font-family: $m-r
+				font-size: 1.4rem
+				font-weight: 400
+
+			&-one
+				background-image: url(../img/photo-dark.png)
+
+			&-two
+				background-image: url(../img/zakopane.png)
+
+			&-three
+				background-image: url(../img/sandomierz-img-blackout.png)
+
+			&-four
+				background-image: url(../img/sopot.png)
+
+			&-five
+				background-image: url(../img/photo-dark-2.png)
+
+
+
+/* Section Hotesl */
+#Hotels
+	height: 125.6rem
+	width: 100%
+	padding: 0
+	padding-top: 27.5rem
+
+	h3
+		margin: 0
+		color: $gray
+		font-family: $m-b
+		font-size: 3rem
+		font-weight: 700
+		letter-spacing: 0.75px
+
+	input
+		margin-top: 5.2rem
+		width: 81rem
+		height: 5.9rem
+		box-shadow: 0 0 85px rgba(141, 148, 169, 0.3)
+		background-color: $white
+		border: none
+		border-radius: 5rem
+		opacity: 0.6
+		color: $gray
+		font-family: $m-r
+		font-size: 1.8rem
+		font-weight: 400
+		letter-spacing: 0.18px
+		padding: 0 5rem	0	3rem
+
+	.search
+		transform: translateX(-4rem)
+
+	.nav-search-btn
+		margin-top: 2rem
+		width: 81rem
+
+		.btn
+			height: 2.8rem
+			background-color: $lighten-gray
+			color: $white
+			text-transform: none
+			padding-left: .9rem
+			padding-right: .9rem
+			transition: .3s
+
+		.left_group
+			.btn
+				margin-left: 1rem
+				&:hover
+					background-color: $yellow
+
+		.right_group
+			margin-right: 1rem
+			.btn
+				margin-right: 1rem
+				border: .1rem solid $lighten-gray
+				background-color: rgba(0, 0, 0, 0)
+				color: $gray
+				&:hover
+					background-color: $yellow
+					color: $white
+					border-color: $yellow
+
+	.hotel-block
+		margin-right: 1.5rem
+		margin-left: 1.5rem
+		margin-top: 3rem
+		width: 37.1rem
+		height: 35rem
+		box-shadow: 0 0 85px rgba(141, 148, 169, 0.15)
+		background-color: $white
+		border-radius: 1rem
+
+		img
+			margin-top: 1rem
+		h3
+			text-align: center
+			margin-top: 2rem
+		h4
+			opacity: 0.6
+			color: $gray
+			font-family: $m-r
+			font-size: 1.4rem
+			font-weight: 400
+			letter-spacing: 0.14px
+			text-align: center
+			margin: 0
+		button
+			margin-top: 2.7rem
+			color: $lighten-gray
+			width: 16.4rem
+			height: 3.9rem
+			box-shadow: 0 0 54px rgba(141, 148, 169, 0.25)
+			background-color: $white
+
+			&:hover
+				background-color: $yellow
+				color: $brown
+
+/* Section Travelers */
+#Travelers
+	height: 89.7rem
+	width: 100%
+	background-image: url(../img/sandomierz.png)
+
+	h2
+		color: $gray
+		font-family: $m-b
+		font-size: 3rem
+		font-weight: 700
+		letter-spacing: 0.3px
+		margin-top: 7rem
+
+	h3
+		margin-top: 7rem
+		color: $any-yellow
+		font-family: $m-b
+		font-size: 3.6rem
+		font-weight: 700
+		letter-spacing: 0.36px
+
+	p
+		width: 56.2rem
+		color: $gray
+		font-family: $m-r
+		font-size: 1.4rem
+		font-weight: 400
+		letter-spacing: 0.14px
+		line-height: 3rem
+
+	button
+		width: 21.4rem
+		height: 5.1rem
+		margin-top: 4.4rem
+
+	.travelers-block
+		margin-top: 7rem
+		margin-left: 7rem
+		width: 59.5rem
+		height: 57.7rem
+		border: 1.5rem solid $yellow
+
+	img
+		transform: translateY(-4.7rem) translateX(-5rem)
+
+/* Section Newsletter */
+#Newsletter
+	height: 64.2rem
+	width: 100%
+	background-image: url(../img/newsletter-bg.png)
+
+	h3
+		color: $white
+		font-family: $m-b
+		font-size: 9.2rem
+		font-weight: 700
+		margin: 0
+		margin-top: 18.6rem
+
+	button
+		margin-top: 3.1rem
+		width: 15.4rem
+		height: 5.1rem
+		margin-bottom: 4.5rem
+
+	span
+		width: 35rem
+		height: 1.8rem
+		color: $white
+		font-family: $m-r
+		font-size: 1.8rem
+		font-weight: 400
+
+		span
+			color: #ffc74a
+			&:hover
+				text-decoration: underline

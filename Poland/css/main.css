@@ -1,0 +1,149 @@
+@font-face { font-family: "Montserrat-Bold"; src: url(../fonts/Montserrat-Bold.ttf); }
+@font-face { font-family: "Montserrat-Regular"; src: url(../fonts/Montserrat-Regular.ttf); }
+/* Fonts */
+/* Colors */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\000034}}
+html { font-size: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\000037}}
+* { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\0000310}}
+body { margin: 0; overflow-x: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\0000313}}
+body a { text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\0000317}}
+p::-moz-selection, h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, span::-moz-selection, img::-moz-selection, button::-moz-selection, input::-moz-selection { color: #ffffff; background: #d69aff; }
+p::selection, h1::selection, h2::selection, h3::selection, h4::selection, span::selection, img::selection, button::selection, input::selection { color: #ffffff; background: #d69aff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\0000326}}
+button, button:focus, button:active, input, input:focus, input:active { outline: none; }
+
+/* button */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\0000332}}
+.btn { background-color: #ffc74a; border-radius: 50px; border: none; color: #b98000; font-family: "Montserrat-Bold"; font-size: 1.4rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1.05px; -webkit-transition: 0.3s; transition: 0.3s; cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\0000344}}
+.btn:hover { background-color: rgba(0, 0, 0, 0); }
+
+/* Header */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\0000349}}
+header { height: 120.9rem; width: 192rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\0000353}}
+header .main-bg { background: url(../img/main-bg.png) no-repeat; background-size: cover; width: 192rem; height: 120.9rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\0000360}}
+header .main-bg .blackout { padding-top: 2.6rem; width: 192rem; height: 120.9rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\0000366}}
+header .logo { color: #ffffff; font-family: "Montserrat-Bold"; font-size: 3rem; font-weight: 700; line-height: 9.2rem; margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\0000375}}
+header .logo-img { margin-left: 4rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\0000379}}
+header nav { color: #ffffff; font-family: "Montserrat-Regular"; font-size: 1.8rem; font-weight: 400; line-height: 92.97px; letter-spacing: 0.45px; margin-right: 6rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\0000389}}
+header nav img, header nav span { margin-left: 4.4rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\0000392}}
+header h1 { margin: 0; margin-top: 21.7rem; width: 589px; height: 163px; color: #ffffff; font-family: "Montserrat-Bold"; font-size: 9.2rem; font-weight: 700; line-height: 9.2rem; text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003104}}
+header h1 span { color: #ed6950; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003107}}
+header h3 { opacity: 0.2; color: #ffffff; font-family: "Montserrat-Regular"; font-size: 1.8rem; font-weight: 400; margin-top: 3.7rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003115}}
+header button { width: 23.2rem; height: 5.1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003119}}
+header .img-bg { -webkit-transform: translateY(37.3rem); transform: translateY(37.3rem); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003122}}
+header .img-bg .col-md-auto { padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003125}}
+header .img-bg-content { height: 43.3rem; width: 34.5rem; margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003132}}
+header .img-bg-content:hover .img-bg-content h3 { font-size: 4.6rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003135}}
+header .img-bg-content:hover .img-bg-content-description { -webkit-transform: translateY(15.7rem); transform: translateY(15.7rem); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003138}}
+header .img-bg-content:hover .img-bg-content-description .btn { display: inline-block; -webkit-transform: translateY(6rem); transform: translateY(6rem); border: 0.1rem solid #ffc74a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003144}}
+header .img-bg-content-description { text-align: center; -webkit-transform: translateY(31rem); transform: translateY(31rem); -webkit-transition: 0.5s all; transition: 0.5s all; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003145}}
+header .img-bg-content-description .btn { -webkit-transition: 0.5s all; transition: 0.5s all; display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003153}}
+header .img-bg-content h3 { margin: 0; text-align: center; color: #ffffff; font-family: "Montserrat-Bold"; font-size: 3rem; font-weight: 700; opacity: 1; -webkit-transition: 0.5s all; transition: 0.5s all; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003163}}
+header .img-bg-content h4 { margin: 0; text-align: center; color: #ffc74a; font-family: "Montserrat-Regular"; font-size: 1.4rem; font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003171}}
+header .img-bg-content-one { background-image: url(../img/photo-dark.png); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003174}}
+header .img-bg-content-two { background-image: url(../img/zakopane.png); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003177}}
+header .img-bg-content-three { background-image: url(../img/sandomierz-img-blackout.png); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003180}}
+header .img-bg-content-four { background-image: url(../img/sopot.png); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003183}}
+header .img-bg-content-five { background-image: url(../img/photo-dark-2.png); }
+
+/* Section Hotesl */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003189}}
+#Hotels { height: 125.6rem; width: 100%; padding: 0; padding-top: 27.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003195}}
+#Hotels h3 { margin: 0; color: #606f81; font-family: "Montserrat-Bold"; font-size: 3rem; font-weight: 700; letter-spacing: 0.75px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003203}}
+#Hotels input { margin-top: 5.2rem; width: 81rem; height: 5.9rem; -webkit-box-shadow: 0 0 85px rgba(141, 148, 169, 0.3); box-shadow: 0 0 85px rgba(141, 148, 169, 0.3); background-color: #ffffff; border: none; border-radius: 5rem; opacity: 0.6; color: #606f81; font-family: "Montserrat-Regular"; font-size: 1.8rem; font-weight: 400; letter-spacing: 0.18px; padding: 0 5rem 0 3rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003219}}
+#Hotels .search { -webkit-transform: translateX(-4rem); transform: translateX(-4rem); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003222}}
+#Hotels .nav-search-btn { margin-top: 2rem; width: 81rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003226}}
+#Hotels .nav-search-btn .btn { height: 2.8rem; background-color: #bdc8d9; color: #ffffff; text-transform: none; padding-left: 0.9rem; padding-right: 0.9rem; -webkit-transition: 0.3s; transition: 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003236}}
+#Hotels .nav-search-btn .left_group .btn { margin-left: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003238}}
+#Hotels .nav-search-btn .left_group .btn:hover { background-color: #ffc74a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003241}}
+#Hotels .nav-search-btn .right_group { margin-right: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003243}}
+#Hotels .nav-search-btn .right_group .btn { margin-right: 1rem; border: 0.1rem solid #bdc8d9; background-color: rgba(0, 0, 0, 0); color: #606f81; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003248}}
+#Hotels .nav-search-btn .right_group .btn:hover { background-color: #ffc74a; color: #ffffff; border-color: #ffc74a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003253}}
+#Hotels .hotel-block { margin-right: 1.5rem; margin-left: 1.5rem; margin-top: 3rem; width: 37.1rem; height: 35rem; -webkit-box-shadow: 0 0 85px rgba(141, 148, 169, 0.15); box-shadow: 0 0 85px rgba(141, 148, 169, 0.15); background-color: #ffffff; border-radius: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003263}}
+#Hotels .hotel-block img { margin-top: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003265}}
+#Hotels .hotel-block h3 { text-align: center; margin-top: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003268}}
+#Hotels .hotel-block h4 { opacity: 0.6; color: #606f81; font-family: "Montserrat-Regular"; font-size: 1.4rem; font-weight: 400; letter-spacing: 0.14px; text-align: center; margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003277}}
+#Hotels .hotel-block button { margin-top: 2.7rem; color: #bdc8d9; width: 16.4rem; height: 3.9rem; -webkit-box-shadow: 0 0 54px rgba(141, 148, 169, 0.25); box-shadow: 0 0 54px rgba(141, 148, 169, 0.25); background-color: #ffffff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003285}}
+#Hotels .hotel-block button:hover { background-color: #ffc74a; color: #b98000; }
+
+/* Section Travelers */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003290}}
+#Travelers { height: 89.7rem; width: 100%; background-image: url(../img/sandomierz.png); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003295}}
+#Travelers h2 { color: #606f81; font-family: "Montserrat-Bold"; font-size: 3rem; font-weight: 700; letter-spacing: 0.3px; margin-top: 7rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003303}}
+#Travelers h3 { margin-top: 7rem; color: #f8c759; font-family: "Montserrat-Bold"; font-size: 3.6rem; font-weight: 700; letter-spacing: 0.36px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003311}}
+#Travelers p { width: 56.2rem; color: #606f81; font-family: "Montserrat-Regular"; font-size: 1.4rem; font-weight: 400; letter-spacing: 0.14px; line-height: 3rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003320}}
+#Travelers button { width: 21.4rem; height: 5.1rem; margin-top: 4.4rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003325}}
+#Travelers .travelers-block { margin-top: 7rem; margin-left: 7rem; width: 59.5rem; height: 57.7rem; border: 1.5rem solid #ffc74a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003332}}
+#Travelers img { -webkit-transform: translateY(-4.7rem) translateX(-5rem); transform: translateY(-4.7rem) translateX(-5rem); }
+
+/* Section Newsletter */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003336}}
+#Newsletter { height: 64.2rem; width: 100%; background-image: url(../img/newsletter-bg.png); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003341}}
+#Newsletter h3 { color: #ffffff; font-family: "Montserrat-Bold"; font-size: 9.2rem; font-weight: 700; margin: 0; margin-top: 18.6rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003349}}
+#Newsletter button { margin-top: 3.1rem; width: 15.4rem; height: 5.1rem; margin-bottom: 4.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003355}}
+#Newsletter span { width: 35rem; height: 1.8rem; color: #ffffff; font-family: "Montserrat-Regular"; font-size: 1.8rem; font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003363}}
+#Newsletter span span { color: #ffc74a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/tsund\/Desktop\/Poland\/css\/main\.sass}line{font-family:\00003365}}
+#Newsletter span span:hover { text-decoration: underline; }
+
+/*# sourceMappingURL=main.css.map */
